@@ -103,7 +103,6 @@ elapsedMillis ethernetLinkCheck = 1000;
 double headingcorr = 900; // 90deg heading correction (90deg*10)
 
 double baseline = 0;
-double rollDual = 0;
 double relPosD = 0;
 double heading = 0;
 double headingVTG = 0;
@@ -123,9 +122,6 @@ bool blink = false;
 bool Ethernet_running = false; //Auto set on in ethernet setup
 bool Autosteer_running = true; // Auto set off in autosteer setup
 
-float roll = 0;
-float pitch = 0;
-float yaw = 0;
 
 const uint8_t WAS_SENSOR_PIN = A15;
 
